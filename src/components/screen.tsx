@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 
 const screen = () => {
   return  <div>Screen</div>
   
-}
+};
 
-export default screen
+export default screen;
