@@ -1,5 +1,5 @@
 import React, {
-    component
+    Component
 } from "react";
 import Buttons from './buttons';
 import Result from './result';
@@ -80,8 +80,9 @@ class App extends Component{ //class형은 props, 함수형은 useState 를 사�
             Buttons Buttonclicked = {
                 this.handleclicks
             }
-            /><
-            /div>
+            /></div>
             );
     }
 }
+
+export default App;
