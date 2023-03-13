@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 class Buttons extends Component
 {
 
-    constructor(props){
+    constructor(props){ //생성자 
         super(props);
         this.handleclicks = this.handleclicks.bind(this);
     }
